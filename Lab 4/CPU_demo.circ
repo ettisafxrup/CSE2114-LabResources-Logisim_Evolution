@@ -56,6 +56,7 @@
   <circuit name="main">
     <a name="circuit" val="main"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="simulationFrequency" val="1.0"/>
     <comp lib="0" loc="(100,170)" name="Clock">
       <a name="appearance" val="classic"/>
       <a name="labelfont" val="SansSerif plain 12"/>
@@ -69,38 +70,6 @@
       <a name="label" val="Reset"/>
       <a name="labelcolor" val="#000000"/>
       <a name="labelfont" val="SansSerif plain 12"/>
-    </comp>
-    <comp lib="9" loc="(85,100)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="5 - BUN"/>
-    </comp>
-    <comp lib="9" loc="(85,115)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="6 - LDA"/>
-    </comp>
-    <comp lib="9" loc="(85,130)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="7 - HLT"/>
-    </comp>
-    <comp lib="9" loc="(85,25)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="0 - AND"/>
-    </comp>
-    <comp lib="9" loc="(85,40)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="1 - ADD"/>
-    </comp>
-    <comp lib="9" loc="(85,55)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="2 - STO"/>
-    </comp>
-    <comp lib="9" loc="(85,70)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="3 - OR"/>
-    </comp>
-    <comp lib="9" loc="(85,85)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="4 - SUB"/>
     </comp>
     <comp loc="(220,170)" name="CPU">
       <a name="labelfont" val="SansSerif plain 12"/>
@@ -134,6 +103,7 @@
     <a name="clabel" val="CPU"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
     <a name="clabelup" val="north"/>
+    <a name="simulationFrequency" val="1.0"/>
     <comp lib="0" loc="(100,530)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="ALUout"/>
